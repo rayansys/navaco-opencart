@@ -1,7 +1,7 @@
 <?php
 
 class ControllerExtensionPaymentnavaco extends Controller {
-    private $urlService = "https://fcp.shaparak.ir/nvcservice/Api/v2/";
+    private $urlService = "http://79.174.161.132:8181/nvcservice/Api/v2/";
     public function index() {
         $this->load->language('extension/payment/navaco');
 
